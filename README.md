@@ -10,7 +10,7 @@ Prototipe sistem deteksi kebakaran untuk memonitor umpan video dan mengirimkan p
 - Pengambilan screenshot ketika api terdeteksi 
 - Indikasi visual api dengan kotak pembatas pada tampilan video
 
-## Persyaratan
+## Requirements
 
 - Python 3.6 atau lebih tinggi
 - Webcam (jika menggunakan sumber video lokal)
@@ -74,7 +74,7 @@ Sistem menggunakan cascade classifier yang dilatih untuk mendeteksi pola api dal
 3. Screenshot dikirim ke chat sebagai bukti
 4. Screenshot dihapus dari penyimpanan lokal setelah dikirim
 
-## Kustomisasi
+## Customization
 
 Anda dapat menyesuaikan pesan peringatan dengan memodifikasi variabel `pesan_teks` di `main.py`:
 
